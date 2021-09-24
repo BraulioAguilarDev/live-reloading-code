@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+    api:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      container_name: BraulioAguilarDev
+      ports:
+        - 7070:7070
+      restart: on-failure
+      volumes:
+        - .:/app

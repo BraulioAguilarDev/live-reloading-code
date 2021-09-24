@@ -10,4 +10,28 @@ The previous isn’t bad, it works but you lost time in start, stop the process,
 
 I present [AIR](https://github.com/cosmtrek/air) that reloads your changes when you codding. Air it's used in your machine or inside the docker.
 
+### Usage
+
+* Install air in your machine
+* Inside docker
+
+
+### Test
+
+Example: 1
+
+```sh
+# air is installed in your machine
+$ air main.go
+```
+
+Example: 2
+
+```sh
+# air is installed in your docker image
+$ docker-compose up
+```
+
+__For each change that you make applies the refresh__
+
 Happy coding!
